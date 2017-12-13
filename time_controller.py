@@ -156,5 +156,5 @@ class TimerInterface:
 
 
 if __name__ == "__main__":
-    timer_interface = TimerInterface('localhost', 2222)
+    timer_interface = TimerInterface('localhost', 49152)
     timer_interface.run()

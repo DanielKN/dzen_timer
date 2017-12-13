@@ -2,8 +2,9 @@
 import socket
 import sys
 
-HOST = 'localhost'    # The remote host
-PORT = 2222              # The same port as used by the server
+HOST = 'localhost'
+# TODO: Get port to pull from a setting file, shared with time_controller. 
+PORT = 49152    
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
