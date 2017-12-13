@@ -1,6 +1,6 @@
 # Python Dzen2 Promodoro Timer
 
-A simple desktop promorodo timer written in python. 
+A simple desktop pomodoro timer written in python. 
 
 
 ### Prerequisites
@@ -18,6 +18,7 @@ For example:
 cd dzen_timer
 python -u time_controller.py  | dzen2 -x 10 -y 1000 -w 300 -h 30 -u
 ```
+
 NOTE: This will run the timer in a dzen title bar, (rather than a slave window). So it will elminate
 any existing dzen title bars. 
 
