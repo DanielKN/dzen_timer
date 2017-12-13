@@ -23,9 +23,6 @@ Then you can run it:
 NOTE: This will run the timer in a dzen title bar, (rather than a slave window). So it will elminate
 any existing dzen title bars. 
 
-```
-./timer.sh
-```
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
