@@ -7,10 +7,6 @@ A simple desktop promorodo timer written in python.
 
 You will need [Dzen2](https://github.com/robm/dzen), and python3
 
-```
-Give examples
-```
-
 ### Using the timer.
 
 Make the script executable:
