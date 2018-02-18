@@ -3,7 +3,7 @@ import threading
 import queue
 import time
 
-start_timer_promodoro_button = "^ca(1, python time_client.py start1500) S ^ca()"
+start_timer_pomodoro_button = "^ca(1, python time_client.py start1500) S ^ca()"
 start_timer_break_button = "^ca(1, python time_client.py start300) B ^ca()"
 pause_button = "^ca(1, python time_client.py pause) P ^ca()"
 resume_button = "^ca(1, python time_client.py resume) R ^ca()"
@@ -57,7 +57,7 @@ class CountdownTimer(threading.Thread):
 
         if self.paused:
             print("{} {} {} {}".format(
-                start_timer_promodoro_button,
+                start_timer_pomodoro_button,
                 start_timer_break_button,
                 resume_button,
                 self.format_time(self.set_time)))
@@ -65,14 +65,14 @@ class CountdownTimer(threading.Thread):
 
         elif self.set_time:
             print("{} {} {} {}".format(
-                start_timer_promodoro_button,
+                start_timer_pomodoro_button,
                 start_timer_break_button,
                 pause_button,
                 self.format_time(self.time_remaining)))
 
         else:
             print("{} {} {} {}".format(
-                start_timer_promodoro_button,
+                start_timer_pomodoro_button,
                 start_timer_break_button,
                 pause_button,
                 self.format_time(0)))
